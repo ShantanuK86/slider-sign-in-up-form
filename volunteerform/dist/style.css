@@ -1,0 +1,48 @@
+header {
+  text-align: center;
+  background: #0acfd6;
+  margin: 0 0;
+  /* want to fill whole header with background-color*/
+  padding: 30px;
+  /* ??? when set padding: 30px auto; no result */
+}
+
+main {
+  padding: 30px;
+  /*why only can padding vertically? */
+}
+
+.intro {
+  padding: 0 10%;
+}
+
+#name, #email, #phone, #age, #organization, #verify {
+  width: 50%;
+  background: lightblue;
+}
+
+#comment {
+  background: lightblue;
+  width: 80%;
+}
+
+#name:focus, #email:focus, #phone:focus, #age:focus, #organization:focus, #verify:focus, #comment:focus {
+  background: #e8efef;
+}
+
+#verification {
+  margin-top: 70px;
+}
+
+.btn {
+  border: 2px solid #3b96af;
+  background: white;
+  color: #204c59;
+  margin: 15px auto;
+  padding: 10px 30px;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  background: #27e8ae;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey-volunteerform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/6f4159530f.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- This survey form is to practice using BOOTSTRAP FORM AND INPUT -->
+
+
+<header>
+  <h1>Volunteer Form</h1>
+  </header>
+
+<main class="container-fluid">
+  <div class="row">
+    <aside id="intro" class="col-md-6">
+      <div class="intro"> <!-- class="col-x-x" can not be adjusted padding, have to create a sub-div to wrap content-->
+      <h4 class="text-center">Be apart of our ...team</h4>
+      <p class="text-center">you can send someone free</p>
+      <p>As a volunteer............,etc</p>
+      <p>Volunteer receive:
+      <ul id="volunteer-recv">
+        <li>Free Entry</li>
+        <li>Free shirt</li>
+        <li>Big support</li>
+      </ul>
+        </p>
+      <p>If you have any project or idea to share, please contact <a href="g@gmail.com" target="_blank">g@gmail.com</a>, we can discuss in detail.</p>
+      <p class="text-center">Please fill out the form.</p>
+      </div>
+    </aside>
+    
+    <section id="survey-form" class="col-md-6">
+      <h4>Volunteer sign up form</h4>
+      <hr>
+      <form>
+      <div class="form-group">
+        <label for="name">* Full Name:</label>
+        <input id="name" class="form-control" type="text" required>
+       </div>
+       <div class="form-group">
+        <label for="email">* Email:</label>
+        <input id="email" class="form-control" type="email" required>
+       </div>
+        <div class="form-group">
+        <label for="phone">* Phone:</label>
+        <input id="phone" class="form-control" type="tel" required>
+       </div>
+        <div class="form-group">
+        <label for="age">* Age:</label>
+        <input id="age" class="form-control" type="number" min="18" max="80" required>
+       </div>
+        
+        <div class="radio" required>
+          <p>Are you apart of a large group that would like to volunteer?</p>
+          <label for="yes" class="radio"><input id="yes" type="radio">Yes</label>
+          <label for="no" class="radio"><input id="no" type="radio">No</label>
+        </div>
+        
+        <div class="form-group">
+          <label for="organization">What is the name of your organization that will be volunteering?</label>
+          <input class="form-control" id="organization" type="text">
+         </div>
+        
+        <div class="form-group">
+          <label for="comment">Additional comment:</label>
+          <textarea class="form-control" name="" id="comment" cols="6" rows="4">Here is your comment...</textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </section>
+    
+  </div>
+  
+</main>
+
+<footer>
+  <hr>
+  <!--p class="text-center">The form template is coded according to volunteer form</a></p-->
+  <p class="text-center">Made with Us</a></p>
+</footer>
+<!-- partial -->
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+</body>
+</html>
